@@ -1,0 +1,49 @@
+Libraries used:
+
+1. JQuery
+JS Foundation, jQuery. [Online]. Available: https://jquery.com/.
+
+2. D3.js
+M. Bostock, “Data-Driven Documents,” D3.js. [Online]. Available: https://d3js.org/.
+
+3. Plotly
+“Modern Analytic Apps for the Enterprise,” Plotly. [Online]. Available: https://plot.ly/.
+
+
+Code References:
+
+[1] “Change objects opacity,” Popular Blocks. [Online]. Available: https://bl.ocks.org/EfratVil/2bcc4bf35e28ae789de238926ee1ef05.
+
+[2] “Simple d3.js tooltips,” Popular Blocks. [Online]. Available: http://bl.ocks.org/d3noob/a22c42db65eb00d4e369.
+
+[3] D3, “Drag (SVG),” Observable, 08-Aug-2019. [Online]. Available: https://observablehq.com/@d3/circle-dragging-i.
+
+[4] Y. Holtz, “Scatterplot with tooltip in d3.js,” The D3 Graph Gallery – Simple charts made with d3.js. [Online]. Available: https://www.d3-graph-gallery.com/graph/scatter_tooltip.html.
+
+[5] “SVG Basic Shapes and D3.js,” SVG Basic Shapes and D3.js | DashingD3js.com. [Online]. Available: https://www.dashingd3js.com/svg-basic-shapes-and-d3js.
+
+[6] Y. Holtz, “Building legends in d3.js,” The D3 Graph Gallery – Simple charts made with d3.js. [Online]. Available: https://www.d3-graph-gallery.com/graph/custom_legend.html.
+
+[7] L. Nováková and O. Štepanková, "RadViz and Identification of Clusters in Multidimensional Data," 2009 13th International Conference Information Visualisation, Barcelona, 2009, pp. 104-109. doi: 10.1109/IV.2009.103
+
+[8] E. Kandogan, “Star Coordinates: A Multi-dimensional Visualization ...” [Online]. Available: http://people.cs.vt.edu/~north/infoviz/starcoords.pdf.
+
+[9] “Features Correlation Matrix: heatmap made by Domeratskii: plotly,” Features Correlation Matrix | heatmap made by Domeratskii | plotly. [Online]. Available: https://plot.ly/~Domeratskii/13860/features-correlation-matrix/#/.  
+
+[10] “API,” API - Flask Documentation (1.1.x). [Online]. Available: https://flask.palletsprojects.com/en/1.1.x/api/.
+
+[11] “sklearn.cluster.KMeans,” scikit. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+
+[12] “sklearn.preprocessing.MinMaxScaler,” scikit. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html.
+
+[13] B00813456/assignment2_amirulSunesara_B00813456index [.html]. (n.d.). https://dal.brightspace.com.
+
+[14] “Modern Analytic Apps for the Enterprise,” Plotly. [Online]. Available: https://plot.ly/.
+
+[15] B00813456/assignment2_amirulSunesara_B00813456/Radviz [.js]. (n.d.). https://dal.brightspace.com.
+
+[16] B00813456/assignment2_amirulSunesara_B00813456/index [.js]. (n.d.). https://dal.brightspace.com.
+
+[17] B00813456/assignment2_amirulSunesara_B00813456/StarCoordinates [.js]. (n.d.). https://dal.brightspace.com.
+
+[18] B00813456/dataset1_processed [.csv]. (n.d.). https://dal.brightspace.com.

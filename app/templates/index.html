@@ -1,0 +1,121 @@
+<!-- 
+
+Written By Amirul Sunesara
+References:
+[1] B00813456/assignment2_amirulSunesara_B00813456/index [.html]. (n.d.). https://dal.brightspace.com.
+[2] “Modern Analytic Apps for the Enterprise,” Plotly. [Online]. Available: https://plot.ly/.
+[3] JS Foundation, jQuery. [Online]. Available: https://jquery.com/.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Radviz And StarCoordinates</title>
+    <link
+      href="{{ url_for('static', filename='css/style.css')}}"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div class="main">
+          <label>Select Plot:</label>
+          <select id="selectPlot">
+            <option value="-1">--Select Plot--</option>
+            <option value="radviz" selected>Radviz</option>
+            <option value="starcoordinates">Star coordinates</option> </select
+          ><br /><br />
+
+          <label>Select Dataset:</label>
+          <select id="dataset">
+            <option value="-1">--Select Dataset--</option>
+            <option value="winequality-red.csv" selected
+              >Wine quality red</option
+            >
+            <option value="winequality-white.csv">Wine quality white</option>
+            <option value="iris.csv">iris</option>
+            <option value="dataset1_processed.csv"
+              >A1 Processed dataset</option
+            > </select
+          ><br /><br />
+          <label># of Clusters for K-Means:</label>
+          <select id="kValue">
+            <option value="-1">--Select K-Value--</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+            <option value="6" selected>6</option>
+            <option value="7" selected>7</option>
+          </select>
+          <button id="btnClusterize">Clusterize</button>
+          <br /><br />
+          <label>Color Mode:</label>
+          <select id="mode">
+            <option value="-1">--Select Color Mode--</option>
+            <option value="class" selected>Class Based</option>
+            <option value="cluster">Cluster colors</option> </select
+          ><br /><br />
+
+          <div id="attributes"></div>
+        </div>
+        <br />
+        <div>
+          <div id="plotDiagram" class="plot">
+            <div>
+              <center>
+                <table>
+                  <tr style="text-align:center">
+                    Plot Opacity
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>
+                      <input
+                        id="rangeOpacity"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="100"
+                        style="width: 400px; margin-right: 10px;"
+                      />
+                    </td>
+                    <td>100</td>
+                  </tr>
+                </table>
+
+                <label id="lblCategoricalColumn" for="categoricalColumn"
+                  >Select categorical column:</label
+                >
+                <select id="categoricalColumn"
+                  ><option value="-1">---Select Categorical Column---</option
+                  ><option value="workclass">Work Class</option>
+                  <option value="education">Education</option>
+                  <option value="marital-status">Marital Status</option>
+                  <option value="occupation">Occupation</option>
+                  <option value="relationship">relationship</option>
+                  <option value="race">Race</option>
+                  <option value="sex">Sex</option>
+                  <option value="native-country">native-country</option>
+                  <option value="salary" selected="true">Salary</option>
+                </select>
+              </center>
+              <br />
+            </div>
+            <svg id="plot" width="900" height="400"></svg>
+            <div id="corrMatrix" style="float: right;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/plotly-latest.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/d3.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/Radviz.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/StarCoordinates.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+  </body>
+</html>
