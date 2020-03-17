@@ -1,7 +1,7 @@
 ## Overview
 
-![Radiviz](images\snip1.png)
-![Star Coordinates](images\snip2.png)
+![Radiviz](images/snip1.png)
+![Star Coordinates](images/snip2.png)
 
 ## Features
 
